@@ -1,0 +1,29 @@
+#title-container {
+    text-align: center; /* Centers the text horizontally */
+    margin-top: 20px; /* Adds some space from the top */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ensures content is at the top */
+    min-height: 100vh; /* Full viewport height */
+}
+
+
