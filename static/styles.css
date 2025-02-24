@@ -24,6 +24,81 @@ body {
     align-items: center;
     justify-content: flex-start; /* Ensures content is at the top */
     min-height: 100vh; /* Full viewport height */
+    background-color: #02203f; /* Changed background color */
+    color: white;
 }
 
+#username {
+    background-color: #8cabe1; /* Slightly lighter navy blue */
+    color: rgb(1, 19, 84); /* Text remains visible */
+    border: 1px solid #233554; /* Subtle border */
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#category {
+    background-color: #49628f; /* Slightly lighter navy blue */
+    color: rgb(255, 255, 255); /* Text remains visible */
+    border: 1px solid #233554; /* Subtle border */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#question {
+    background-color: #8cabe1; /* Slightly lighter navy blue */
+    color: rgb(1, 19, 84); /* Text remains visible */
+    border: 1px solid #233554; /* Subtle border */
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#title_start_game {
+    margin-top: 50px;
+    text-align: center;
+}
+.card {
+    background-color: #8cabe1; /* Slightly lighter navy blue */
+}
+
+#leaderboard {
+    background-color: #1e2a3a; /* Dark background */
+    color: white; /* White text for the entire table */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures the border-radius is applied correctly */
+    width: 100%; /* Table width */
+    margin: 20px auto; /* Center the table */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-family: 'Arial', sans-serif; /* Clean font */
+}
+
+#leaderboard th, #leaderboard td {
+    color: white; /* Ensures all table text is white */
+    padding: 12px 20px; /* Adds padding to all cells */
+    text-align: center; /* Centers the text */
+    border: 1px solid #4a5b74; /* Light border for the table */
+}
+
+#leaderboard th {
+    background-color: #233554; /* Dark background for the header */
+    color: #FFD700; /* Gold color for headers */
+    font-size: 18px; /* Larger font size for headers */
+}
+
+#leaderboard tr:nth-child(even) {
+    background-color: #2a3b4c; /* Slightly lighter background for even rows */
+}
+
+#leaderboard tr:hover {
+    background-color: #3a4c6e; /* Hover effect for rows */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+#leaderboard td, #leaderboard th {
+    border: 1px solid #4a5b74; /* Subtle border for cells */
+}
 
